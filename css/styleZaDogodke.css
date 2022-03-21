@@ -1,0 +1,41 @@
+html{
+    height: 100vh;
+}
+body{
+    height: 100%;
+    background-color: #000000;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    font-family: OpenSans;
+}
+@font-face {
+    font-family: ledDisplay;
+    src: url('../fonts/The Led Display St.ttf');
+}
+@font-face {
+    font-family: OpenSans;
+    src: url('../fonts/static/OpenSans/OpenSans-Regular.ttf');
+}
+@font-face {
+    font-family: OpenSansBold;
+    src: url('../fonts/static/OpenSans/OpenSans-Bold.ttf');
+}
+@font-face {
+    font-family: Graffiti;
+    src: url('../fonts/Graffiti.ttf');
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+#whole-page{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin-top: 20vh;
+}
+.naslovi{
+    font-family: OpenSans;
+    text-align: center;
+    line-height: 100%;
+    color: #fff;
+}
