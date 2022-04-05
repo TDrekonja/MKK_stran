@@ -6,11 +6,14 @@ html{
 }
 body{
     height: 100%;
-    background-color: #000000;
+    background-color: #FFFFE3;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
     font-family: OpenSans;
     margin-top:24px;
+    background-image: url("../images/ozadje2.png");
+    background-position: center;
+    background-repeat: repeat-y;
 }
 @font-face {
     font-family: ledDisplay;
@@ -31,6 +34,11 @@ body{
 body::-webkit-scrollbar {
     display: none;
 }
+#whole-page{
+    margin-top: 10%;
+}
+
+
 
 /* IMAGE GRID STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -44,7 +52,7 @@ body::-webkit-scrollbar {
 }
 
 .image-grid a:hover img {
-    box-shadow: 0 1rem 1rem rgba(74, 153, 187, 0.35);
+    box-shadow: 0 1rem 1rem rgba(74, 153, 187, 1);
 }
 
 /* LIGHTBOX STYLES
@@ -95,4 +103,35 @@ body::-webkit-scrollbar {
 
 .lightbox-modal .carousel-control-next {
     right: 10px;
+}
+
+.naslovi{
+    font-family: OpenSans;
+    text-align: center;
+    line-height: 100%;
+    color: #4A99BB;
+}
+.opisi{
+    width:40%;
+    text-align: center;
+    color: #4A99BB;
+    margin: 5% auto;
+}
+
+.navbar{
+    transition:500ms ease;
+    background:transparent;
+}
+.navbar.scrolled{
+    background:rgba(0, 0, 0,0.7);
+    color:#4A99BB;
+}
+
+.navbar-toggler-icon{
+    background-image: url("../images/bars-solid.svg");
+    border: none;
+    text-shadow:0 0 4px #4A99BB;
+}
+.navbar-collapse {
+    text-align: center;
 }
