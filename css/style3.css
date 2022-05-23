@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #000000;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    font-family: DBlues-Medium;
+    background-color: #FAD257;
+
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url('../fonts/static/OpenSans/OpenSans-Regular.ttf');
+}
+@font-face {
+    font-family: OpenSansBold;
+    src: url('../fonts/static/OpenSans/OpenSans-Bold.ttf');
+}
+@font-face {
+    font-family: DBlues-Medium;
+    src: url('../fonts/d-blues/DBlues-Medium.ttf');
+}
+@font-face {
+    font-family: DBlues-Bold;
+    src: url('../fonts/d-blues/DBlues-Bold.ttf');
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+#whole-page{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+#welcome{
+    height: 100vh;
+    /*background-color: #FAD257;*/
+    background-image: url("../images/kanalObSoci.jpg");
+    background-size: cover;
+}
+#naslovnica{
+    font-size: 2.5rem;
+    width:60%;
+    height:20vh;
+    text-align: center;
+    margin: 0 auto;
+
+
+}
+#naslovnica h2{
+    font-size: 1.5em;
+    display: inline;
+    font-family: DBlues-Bold;
+    color: #fff;
+    opacity: 1;
+}
+#naslovnica p{
+    font-size: 0.9em;
+    color: #fff;
+    border-radius: 2rem;
+    margin-top: 25%;
+}
+#logo{
+    position: fixed;
+    top: 10vh;
+    left:10vw;
+    z-index: 5;
+}
+nav{
+    -webkit-transform-origin: left top;
+    -webkit-transform:rotate(-90deg) translateX(-100%);
+    height: 4vw;
+    width: 100vh;
+    position: fixed;
+    top: 10vw;
+    z-index: 5;
+
+}
+nav ul li{
+    width: 12vh;
+    height: 4vw;
+    float:right;
+    display:inline;
+
+}
+nav ul li a{
+    color: #4A99BB !important;
+    text-orientation: upright;
+    font-size:1.2em;
+    text-align: center;
+}
+.active{
+    font-weight: bold;
+    text-decoration: underline;
+}
+#megla{
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top:75vh;
+
+}
+#napis{
+    color:#4A99BB;
+    font-size: 5em;
+    display: block;
+    text-align: center; /* Keeps the content on a single line */
+    filter: url(#textFilter);
+    text-shadow: -5px -1px 0px #D7D7D7;
+    margin-bottom: 0;
+}
+.senca{
+    background-color: rgba(0,0,0,0.2);
+}
+#naslovnicaOpis{
+    text-align: center;
+    color:#4A99BB;
+    opacity: 0.5;
+    font-size: 2em;
+}
+#opisi{
+    height: 30vh;
+    width: auto;
+    margin-left: 5%;
+}
+#opisi div{
+    height: 100%;
+    width: 25%;
+    margin-right: 5%;
+    border-radius: 50%;
+}
+#opisi p{
+    font-size: 1.5em;
+}
+.oblacki{
+    text-align: center;
+    line-height: 30vh;
+    font-size: 5em;
+    color:#FAD257;
+}
+#kje{
+    background-color: rgb(220,129,72);
+    background-size: cover;
+}
+#kdo{
+    background-color: rgb(83,198,169);
+    background-size: cover;
+}
+#zakaj{
+    background-color: rgb(148,141,255);
+    background-size: cover;
+
+}
+.slika{
+    height: 100%;
+    width: 50%;
+}
+.slika img{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top:0;
+    object-fit:cover;
+}
+#dSP{
+    background-color: #3FFCA1;
+}
+#dSS{
+    background-color: rgb(255,120,81);
+}
+#dSK{
+    background-color: #33EEFE;
+}
+#dZP{
+    background-color: #FFF586;
+}
+#dZS{
+    background-color: rgb(50,62,84);
+}
+#dZK{
+    background-color: #A5E6D9;
+}
+#dZK img{
+    height:100%;
+    width: auto;
+}
+.dZgori{
+    background-color: #FFF586;
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    top:0;
+    left: 50%;
+}
+.dZgori img{
+    height: 80%;
+    width: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+.dSpodi{
+    height: 50vh;
+    width: 50vw;
+    position: absolute;
+    top:50vh;
+    left: 50vw;
+}
+.okvir{
+    border:1px solid red;
+}
+.krog{
+    height:20vw;
+    width:20vw;
+}
+#klub{
+    padding: 10vh 0;
+    background-color: #F87666;
+}
+#vecjePrireditve{
+    height: 200vh;
+    width: 100vw;
+}
+#kontakt{
+
+}
+#kontaktL{
+    background-image: url("../images/pesek.jpg");
+    background-size: cover;
+}
+#kontaktS{
+    background-image: url("../images/soca2.png");
+}
+#test{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#priL{
+    height: 50%;
+    width: 50%;
+    position: relative;
+}
+#priL img{
+    overflow:hidden;
+    height: 30%;
+    width: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 5% auto;
+}
+#priD{
+    height: 100%;
+    width: 50%;
+    background-color: cornflowerblue;
+}
+#priDZ{
+    background-image: url("../images/summer6.jpg");
+    background-size: cover;
+}
+#priDS{
+
+}
+#priDSp{
+    background-image: url("../images/Kontrada.jpg");
+    background-size: cover;
+}
+.priV{
+    height:25%;
+    width:100%;
+}
+.priC{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 33%;
+}
+.kontaktD{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../images/plaza.jpg");
+    background-size: cover;
+}
+#kontaktO{
+
+    width: 110vw;
+    height: 50%;
+
+}
+#kontaktO div{
+    margin-top: 20vh;
+}
+#skrij{
+    display: none;
+}
+.water{
+    filter: url("#turbulence");
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    z-index: 2;
+    line-height: 0;
+    display: inline-block;
+    background-image: url("../images/plaza.png");
+}
+.panel{
+    height: 100vh;
+    width: 100vw;
+
+    scroll-snap-align: start;
+}
+.krogla{
+    border-radius: 50%;
+    height:50vh;
+    width:50vh;
+
+
+}
+.sekcije{
+    width:100%;
+}
+.naslovOpisa {
+    width: 80%;
+    color: white;
+    margin: 5% auto;
+    text-align: center;
+}
+.opisi {
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+.opisi h3{
+    margin:0;
+}
+.image-grid{
+    width: 100vw;
+}
+.galerija{
+    width: 100vw;
+    margin-top:2%;
+}
+.nasloviDogodkov{
+    font-family: DBlues-Bold;
+    text-align: center;
+    line-height: 100%;
+    color: #FAD257;
+}
+.nasloviDogodkov h1{
+    font-size: 8em;
+}
+
+.image-grid figure {
+    margin-bottom: 0;
+}
+
+.image-grid img {
+    box-shadow: 0 1rem 1rem rgba(74, 153, 187, 0.15);
+    transition: box-shadow 0.2s;
+}
+
+.image-grid a:hover img {
+    box-shadow: 0 1rem 1rem #FAD257;
+}

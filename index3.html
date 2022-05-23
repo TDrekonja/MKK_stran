@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <title>MKK - Mladinski Klub Kanal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
+
+</head>
+<body>
+<div id="whole-page" class="container-fluid">
+
+    <a id="logo" href="#">
+        <img src="images/cropped-MKK_logo.png" alt="MKK_Logo" width="auto" height="50"/>
+    </a>
+    <nav id="navigacija">
+
+        <ul class="">
+            <li class="nav-item active">
+                <a class="nav-link " aria-current="page" href="#klub">Klub</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#plaza">Plaža</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#vecjePrireditve">Prireditve</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#kontakt">Kontakt</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <section id="welcome" class="panel">
+        <div id="naslovnica" class="row ">
+
+
+
+        </div>
+        <div id="megla">
+            <h2 id="napis">Mladinski klub Kanal</h2>
+        </div>
+        <!--<div id="opisi" class="row">
+            <div id="kje" class="col-4 oblacki">Kje</div>
+            <div id="kdo" class="col-4 oblacki">Kdo</div>
+            <div id="zakaj" class="col-4 oblacki">Zakaj</div>
+        </div>-->
+        <svg >
+            <filter id="textFilter">
+                <feMorphology in="SourceAlpha" result="DILATED" operator="dilate" radius="2"></feMorphology>
+                <feFlood flood-color="#000000" flood-opacity="1" result="white"></feFlood>
+                <feComposite in="white" in2="DILATED" operator="in" result="OUTLINE"></feComposite>
+                <feMorphology in="SourceAlpha" result="DILATED2" operator="dilate" radius="1"></feMorphology>
+                <feFlood flood-color="#ffffff" flood-opacity="1" result="black"></feFlood>
+                <feComposite in="black" in2="DILATED2" operator="in" result="OUTLINE2"></feComposite>
+                <feMerge>
+                    <feMergeNode in="OUTLINE" />
+                    <feMergeNode in="OUTLINE2" />
+                    <feMergeNode in="SourceGraphic" />
+                </feMerge>
+            </filter>
+        </svg>
+    </section>
+
+    <section id="klub" class="image-grid">
+        <div class="container-fluid">
+            <div class="row gy-4 galerija">
+                <div class="nasloviDogodkov">
+                    <h1>Prirejamo zabave...</h1>
+                </div>
+            </div>
+            <div class="row gy-4 galerija">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                    <figure>
+                        <a class="d-block" >
+                            <img width="1920" height="1280" src="images/otvoritev/1.jpg" class="img-fluid" alt="Ring of Kerry, County Kerry, Ireland" data-caption="Ring of Kerry, County Kerry, Ireland">
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                    <figure>
+                        <a class="d-block" >
+                            <img width="1920" height="1280" src="images/otvoritev/2.jpg" class="img-fluid" alt="Fintown, Ireland" data-caption="Fintown, Ireland">
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                    <figure>
+                        <a class="d-block" >
+                            <img width="1920" height="1280" src="images/otvoritev/3.jpg" class="img-fluid" alt="Fintown, Ireland" data-caption="Fintown, Ireland">
+                        </a>
+                    </figure>
+                </div>
+            </div>
+            <div class="row gy-4 galerija">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                    <figure>
+                        <a class="d-block" >
+                            <img width="1920" height="1280" src="images/otvoritev/4.jpg" class="img-fluid" alt="Fintown, Ireland" data-caption="Fintown, Ireland">
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                    <figure>
+                        <a class="d-block" >
+                            <img width="1920" height="1280" src="images/flirt.jpg" class="img-fluid" alt="Fintown, Ireland" data-caption="Fintown, Ireland">
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                    <figure>
+                        <a class="d-block" >
+                            <img width="1920" height="1280" src="images/flirt2.jpg" class="img-fluid" alt="Fintown, Ireland" data-caption="Fintown, Ireland">
+                        </a>
+                    </figure>
+                </div>
+                <!-- more columns here -->
+            </div>
+            <div class="row gy-4 galerija">
+                <div class="nasloviDogodkov">
+                    <h1>...Pa tudi športne dogodke</h1>
+                </div>
+            </div>
+            <div class="row gy-4 galerija">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                    <figure>
+                        <a class="d-block" >
+                            <img width="1920" height="1280" src="images/matic.JPG" class="img-fluid" alt="Fintown, Ireland" data-caption="Fintown, Ireland">
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                    <figure>
+                        <a class="d-block" >
+                            <img width="1920" height="1280" src="images/beachSoccer1.jpg" class="img-fluid" alt="Fintown, Ireland" data-caption="Fintown, Ireland">
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                    <figure>
+                        <a class="d-block" >
+                            <img width="1920" height="1280" src="images/skok.jpg" class="img-fluid" alt="Fintown, Ireland" data-caption="Fintown, Ireland">
+                        </a>
+                    </figure>
+                </div>
+                <!-- more columns here -->
+            </div>
+        </div>
+    </section>
+
+
+    <section id="plaza" class="panel">
+        <div class="row h-100">
+            <div class="col-lg-6">
+                <div  class="slika">
+                    <img src="images/plaza.jpg">
+                </div>
+                <div  class="slika">
+                    <img id="nocna" src="images/plazaNocna.jpg">
+                </div>
+                <div  class="slika">
+                    <img id="skoki" src="images/skok.jpg">
+                </div>
+            </div>
+            <div class="col-lg-6 ">
+                <div class="row h-50">
+                    <div  class="col-lg-12 znaki ">
+                        <div id="dZP" class="dZgori">
+                            <img src="images/terasca.png" alt="Terasca"/>
+                        </div>
+                        <div id="dZS" class="dZgori">
+                            <img src="images/deniKuk.jpg" alt="Deni Kuk"/>
+                        </div>
+                        <div id="dZK" class="dZgori">
+                            <img src="images/zabavniVikend.png" alt="Zabavni vikend"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="row h-50">
+                    <div class="col-lg-12">
+                        <div id="dSP" class="dSpodi">
+                            <h1 class="naslovOpisa">Plaža</h1>
+                            <div class="opisi col-sm">
+                                <h3>Vsakoleto postavimo bar ob reki Soči, kjer se lahko ohladiš v vodi in v baru</h3>
+                            </div>
+                        </div>
+                        <div id="dSS" class="dSpodi">
+                            <h1 class="naslovOpisa">Koncerti</h1>
+                            <div class="opisi col-sm">
+                                <h3>Med samim poletjem gostimo dogodke tudi na plaži, na primer koncerte, karaoke, oglede tekem...</h3>
+                            </div>
+                        </div>
+                        <div id="dSK" class="dSpodi">
+                            <h1 class="naslovOpisa">Zabavni vikend</h1>
+                            <div class="opisi col-sm">
+                                <h3>Vikend ob koncu julija je rezerviran za tekmovanje v skokih z dvema kategorijama: atraktivni skoki ter ‘komu bolj špricne’.Tekmuje se tudi v metanju špljakov ter v izboru miss in mistra plaže</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+    <section id="vecjePrireditve">
+        <div class="row h-100">
+            <div id="priL" class="col-6">
+                <img id="summerLogo" src="images/summerLogo_sonce.png" alt="Summer logo" />
+            </div>
+            <div id="priD" class="col-6">
+                <div class="row priV">
+                    <div id="priDZ" class="priC"></div>
+                </div>
+                <div class="row priV">
+                    <div id="priDS" class="priC">
+                        <h1 class="naslovOpisa">Summer party</h1><h3 class="opisi">Največja EDM zabava na Primorskem. Za noro vzdušje so skozi leta skrbeli Beltek, Vanillaz, Nari&Milani, Matroda in še mnogi drugi DJ-i.</h3>
+                    </div>
+                </div>
+                 <div class="row priV">
+                    <div id="priDSp" class="priC"></div>
+                </div>
+                <div class="row priV">
+                    <div id="priDZa" class="priC">
+                        <h1 class="naslovOpisa">Festival Kontrada</h1><h3 class="opisi">Koncerti raznih izvajalcev, kot so Dan D, Vlado Kreslin... na prenovljenem mestnem trgu</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="kontakt" class="panel">
+        <div  class="row">
+            <div id="test" class="panel">
+                <div class="water">
+                </div>
+                <div class="kontaktD">
+                    <div id="kontaktO" class="row">
+
+                        <div id="" class="opisi col-sm-6 senca">
+                            <h3 class="">Izvršni odbor</h3>
+                            <p>Predsednik: Tine Drekonja</p>
+
+                            <p>Podpredsednik: Žan Simčič</p>
+
+                            <p>Tajnik: Blaž Gerbec</p>
+
+                            <p>Blagajnik: Jakob Blažič</p>
+
+                            <p>Član: Žan Bucik</p>
+                        </div>
+
+                        <div class="opisi col-sm-6 senca">
+                            <h3 class="">Kontakt</h3>
+                            <p>Sedež:
+                                Gradnikova ulica 25, 5213 Kanal</p>
+
+                            <p> E-mail:
+                                mladinski.klub.kanal@gmail.com</p>
+
+                            <p>Transakcijski račun:
+                                SI56 0400 0026 6104 212</p>
+
+                            <p>Davčna številka:
+                                32233558</p>
+
+                            <p>Matična številka:
+                                4120159000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <svg id="skrij">
+                <filter id="turbulence" x="0" y="0" width="100vw" height="100vh">
+                    <feTurbulence id="sea-filter" type="turbulence" result="turbulence" numOctaves="1" seed="5" baseFrequency="0.01 0.05"></feTurbulence>
+                    <feDisplacementMap scale="20" in="SourceGraphic" in2="turbulence" xChannelSelector="R" yChannelSelector="G" result="disp"></feDisplacementMap>
+                    <animate xlink:href="#sea-filter" attributeName="baseFrequency" dur="60s" keyTimes="0;0.5;1" values="0.02 0.06; 0.04 0.08; 0.02 0.06" repeatCount="indefinite"></animate>
+                </filter>
+            </svg>
+        </div>
+    </section>
+</div>
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<script src="js/index3.js"></script>
+</body>
+</html>

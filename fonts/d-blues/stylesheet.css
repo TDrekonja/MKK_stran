@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'D Blues';
+    src: url('DBlues-Light.eot');
+    src: local('D Blues Light'), local('DBlues-Light'),
+        url('DBlues-Light.eot?#iefix') format('embedded-opentype'),
+        url('DBlues-Light.woff2') format('woff2'),
+        url('DBlues-Light.woff') format('woff'),
+        url('DBlues-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'D Blues';
+    src: url('DBlues-Regular.eot');
+    src: local('D Blues Regular'), local('DBlues-Regular'),
+        url('DBlues-Regular.eot?#iefix') format('embedded-opentype'),
+        url('DBlues-Regular.woff2') format('woff2'),
+        url('DBlues-Regular.woff') format('woff'),
+        url('DBlues-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'D Blues';
+    src: url('DBlues-LightItalic.eot');
+    src: local('D Blues Light Italic'), local('DBlues-LightItalic'),
+        url('DBlues-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('DBlues-LightItalic.woff2') format('woff2'),
+        url('DBlues-LightItalic.woff') format('woff'),
+        url('DBlues-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'D Blues UltraBlack';
+    src: url('DBlues-UltraBlack.eot');
+    src: local('D Blues UltraBlack'), local('DBlues-UltraBlack'),
+        url('DBlues-UltraBlack.eot?#iefix') format('embedded-opentype'),
+        url('DBlues-UltraBlack.woff2') format('woff2'),
+        url('DBlues-UltraBlack.woff') format('woff'),
+        url('DBlues-UltraBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'D Blues';
+    src: url('DBlues-BoldItalic.eot');
+    src: local('D Blues Bold Italic'), local('DBlues-BoldItalic'),
+        url('DBlues-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('DBlues-BoldItalic.woff2') format('woff2'),
+        url('DBlues-BoldItalic.woff') format('woff'),
+        url('DBlues-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'D Blues';
+    src: url('DBlues-Medium.eot');
+    src: local('D Blues Medium'), local('DBlues-Medium'),
+        url('DBlues-Medium.eot?#iefix') format('embedded-opentype'),
+        url('DBlues-Medium.woff2') format('woff2'),
+        url('DBlues-Medium.woff') format('woff'),
+        url('DBlues-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'D Blues';
+    src: url('DBlues-ExtraLightItalic.eot');
+    src: local('D Blues ExtraLight Italic'), local('DBlues-ExtraLightItalic'),
+        url('DBlues-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('DBlues-ExtraLightItalic.woff2') format('woff2'),
+        url('DBlues-ExtraLightItalic.woff') format('woff'),
+        url('DBlues-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'D Blues';
+    src: url('DBlues-Black.eot');
+    src: local('D Blues Black'), local('DBlues-Black'),
+        url('DBlues-Black.eot?#iefix') format('embedded-opentype'),
+        url('DBlues-Black.woff2') format('woff2'),
+        url('DBlues-Black.woff') format('woff'),
+        url('DBlues-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'D Blues Book';
+    src: url('DBlues-BookItalic.eot');
+    src: local('D Blues Book Italic'), local('DBlues-BookItalic'),
+        url('DBlues-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('DBlues-BookItalic.woff2') format('woff2'),
+        url('DBlues-BookItalic.woff') format('woff'),
+        url('DBlues-BookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'D Blues';
+    src: url('DBlues-RegularItalic.eot');
+    src: local('D Blues Regular Italic'), local('DBlues-RegularItalic'),
+        url('DBlues-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('DBlues-RegularItalic.woff2') format('woff2'),
+        url('DBlues-RegularItalic.woff') format('woff'),
+        url('DBlues-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'D Blues Book';
+    src: url('DBlues-Book.eot');
+    src: local('D Blues Book'), local('DBlues-Book'),
+        url('DBlues-Book.eot?#iefix') format('embedded-opentype'),
+        url('DBlues-Book.woff2') format('woff2'),
+        url('DBlues-Book.woff') format('woff'),
+        url('DBlues-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'D Blues';
+    src: url('DBlues-SemiBold.eot');
+    src: local('D Blues SemiBold'), local('DBlues-SemiBold'),
+        url('DBlues-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('DBlues-SemiBold.woff2') format('woff2'),
+        url('DBlues-SemiBold.woff') format('woff'),
+        url('DBlues-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'D Blues';
+    src: url('DBlues-BlackItalic.eot');
+    src: local('D Blues Black Italic'), local('DBlues-BlackItalic'),
+        url('DBlues-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('DBlues-BlackItalic.woff2') format('woff2'),
+        url('DBlues-BlackItalic.woff') format('woff'),
+        url('DBlues-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'D Blues';
+    src: url('DBlues-SemiBoldItalic.eot');
+    src: local('D Blues SemiBold Italic'), local('DBlues-SemiBoldItalic'),
+        url('DBlues-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('DBlues-SemiBoldItalic.woff2') format('woff2'),
+        url('DBlues-SemiBoldItalic.woff') format('woff'),
+        url('DBlues-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'D Blues';
+    src: url('DBlues-Bold.eot');
+    src: local('D Blues Bold'), local('DBlues-Bold'),
+        url('DBlues-Bold.eot?#iefix') format('embedded-opentype'),
+        url('DBlues-Bold.woff2') format('woff2'),
+        url('DBlues-Bold.woff') format('woff'),
+        url('DBlues-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'D Blues';
+    src: url('DBlues-Thin.eot');
+    src: local('D Blues Thin'), local('DBlues-Thin'),
+        url('DBlues-Thin.eot?#iefix') format('embedded-opentype'),
+        url('DBlues-Thin.woff2') format('woff2'),
+        url('DBlues-Thin.woff') format('woff'),
+        url('DBlues-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'D Blues';
+    src: url('DBlues-MediumItalic.eot');
+    src: local('D Blues Medium Italic'), local('DBlues-MediumItalic'),
+        url('DBlues-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('DBlues-MediumItalic.woff2') format('woff2'),
+        url('DBlues-MediumItalic.woff') format('woff'),
+        url('DBlues-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'D Blues';
+    src: url('DBlues-ExtraLight.eot');
+    src: local('D Blues ExtraLight'), local('DBlues-ExtraLight'),
+        url('DBlues-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('DBlues-ExtraLight.woff2') format('woff2'),
+        url('DBlues-ExtraLight.woff') format('woff'),
+        url('DBlues-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'D Blues';
+    src: url('DBlues-ThinItalic.eot');
+    src: local('D Blues Thin Italic'), local('DBlues-ThinItalic'),
+        url('DBlues-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('DBlues-ThinItalic.woff2') format('woff2'),
+        url('DBlues-ThinItalic.woff') format('woff'),
+        url('DBlues-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'D Blues UltraBlack';
+    src: url('DBlues-UltraBlackItalic.eot');
+    src: local('D Blues UltraBlack Italic'), local('DBlues-UltraBlackItalic'),
+        url('DBlues-UltraBlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('DBlues-UltraBlackItalic.woff2') format('woff2'),
+        url('DBlues-UltraBlackItalic.woff') format('woff'),
+        url('DBlues-UltraBlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+

@@ -1,0 +1,13 @@
+body {
+    height: 300vh;
+    background-color: #111;
+    color: white;
+    overflow-x: hidden;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    margin:10px;
+    background-color: white;
+    color: #111111;
+}

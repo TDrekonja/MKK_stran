@@ -6,14 +6,11 @@ html{
 }
 body{
     height: 100%;
-    background-color: #FFFFE3;
+    background-color: #000000;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
     font-family: OpenSans;
     margin-top:24px;
-    background-image: url("../images/ozadje2.png");
-    background-position: center;
-    background-repeat: repeat-y;
 }
 @font-face {
     font-family: ledDisplay;
@@ -37,8 +34,17 @@ body::-webkit-scrollbar {
 #whole-page{
     margin-top: 10%;
 }
-
-
+#naslovnica{
+    height: 100vh;
+    width: 100vw;
+}
+.image-grid{
+    width: 100vw;
+}
+.row{
+    width: 100vw;
+    margin-top:2%;
+}
 
 /* IMAGE GRID STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -111,6 +117,9 @@ body::-webkit-scrollbar {
     line-height: 100%;
     color: #4A99BB;
 }
+.naslovi h1{
+    font-size: 12em;
+}
 .opisi{
     width:40%;
     text-align: center;
@@ -121,6 +130,7 @@ body::-webkit-scrollbar {
 .navbar{
     transition:500ms ease;
     background:transparent;
+    color: #4A99BB;
 }
 .navbar.scrolled{
     background:rgba(0, 0, 0,0.7);
